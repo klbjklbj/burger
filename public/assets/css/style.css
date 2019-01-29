@@ -1,0 +1,27 @@
+
+
+
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: white;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.col {  
+    display: block;
+    margin: 0 auto;
+}
