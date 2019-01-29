@@ -16,7 +16,7 @@ git clone https://github.com/klbjklbj/burger.git
 ```
 **Step 2 - Change directory to the cloned repo folder.**
 ```
-cd Eat-Da-Burger
+cd burger
 ```
 **Step 3 - Install all required NPM packages.**
 ```
