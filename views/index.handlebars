@@ -1,58 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<div class="container">
 
-<head>
-  <title>Eat Da Burger!</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
+  <div class="jumbotron text-center bg-white">
+    <img src="/assets/images/burger1.jpg">
+    <h1>Eat Da Burger!</h1>
+    <form class="create-form">
+      <div class="form-group">
 
-<body>
+        <input type="text" id="name" name="burger-name" placeholder="Order a burger!"></input>
+      </div>
+      <button class="btn-primary" type="submit">Add Burger</button>
+    </form>
+  </div>
 
+  <div class="row">
+    <div class="col-6 bg-light">
 
-
-  <div class="container">
-
-    <div class="jumbotron text-center">
-      <h1>Eat Da Burger!</h1>
-      <form class="create-form">
-        <div class="form-group">
-
-          <input type="text" id="name" name="burger-name" placeholder="Order a burger!"></input>
-        </div>
-        <button type="submit">Add Burger</button>
-      </form>
-    </div>
-
-    <div class="row">
-      <div class="col-6">
-
-        <h3>Burgers to Eat</h3>
-
+      <h3 class="text-center">Burgers to Eat</h3>
+      <h6>
         {{#each burgers}}
         {{#unless devoured}}
         {{> burgers/burger-block devoured=true}}
         {{/unless}}
         {{/each}}
-
-      </div>
-      <div class="col-6">
-        <h3>Devoured Burgers</h3>
-        <p>
-          {{#each burgers}}
-          {{#if devoured}}
-          {{> burgers/burger-block devoured=false}}
-          {{/if}}
-          {{/each}}
-          <p>
-      </div>
+      </h6>
 
     </div>
+    <div class="col-6 bg-light">
+      <h3 class="text-center">Devoured Burgers</h3>
+      <h6>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devoured=false}}
+        {{/if}}
+        {{/each}}
+      </h6>
+    </div>
+
   </div>
-
-</body>
-
-</html>
+</div>
