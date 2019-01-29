@@ -12,7 +12,7 @@ If you'd like to run this app locally
 
 **Step 1 - Clone my repo using the command line below.**
 ```
-git clone https://github.com/klbjklbj/Eat-Da-Burger.git
+git clone https://github.com/klbjklbj/burger.git
 ```
 **Step 2 - Change directory to the cloned repo folder.**
 ```
@@ -31,7 +31,7 @@ node server.js
 Simply enter the name of a burger you'd like to eat and then hit the "Add Burger" button.  The name of your burger will appear on the left side of your screen. When you want to eat your burger click "Devour Me" and your burger will appear on the right hand of the screen under the "Devoured Burgers" column. If for some reason you hit the "Devour" button by mistake or you do not want to admit you ate so many burgers, just click on "Make Me Whole Again".  Anything you enter will remain in the database.  Enjoy!
 
 <div align="center">
-<img src="https://github.com/klbjklbj/burger/master/public/assets/images/burger-screenshot.png?raw=true" alt="Project logo"></img>
+<img src="https://github.com/klbjklbj/burger/blob/master/public/assets/images/burger_screenshot.png"></img>
 </div>
 
 
