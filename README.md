@@ -1,10 +1,10 @@
 # Eat Da Burger
 
-This is a burger logger made with MySQL, Node, Express, Handlebars, Bootstrap and a homemade ORM (yum!). It follows the MVC design pattern.
+This is a burger logger made with MySQL, Node, Express, Handlebars, Bootstrap and a homemade ORM. It follows the MVC design pattern.
 
 ## Getting Started
 
-Check out the deployed version here - https://whispering-beyond-26090.herokuapp.com/ .  
+Check out the deployed version here - https://whispering-beyond-26090.herokuapp.com/   
 
 -or-
 
@@ -26,5 +26,9 @@ npm install
 ```
 node server.js
 ```
+## How It Works
+
+Simply enter the name of a burger you'd like to eat and then hit the "Add Burger" button.  The name of your burger will appear on the left side of your screen. When you want to eat your burger click "Devour Me" and your burger will appear on the right hand of the screen under the "Devoured Burgers" column. If for some reason you hit the "Devour" button by mistake or you do not want to admit you ate so many burgers, just click on "Make Me Whole Again".  Anything you enter will remain in the database.  Enjoy!
+
 
  
